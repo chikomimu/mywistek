@@ -1,0 +1,45 @@
+name: mywistek
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  http: ^0.13.4
+  shared_preferences: ^2.0.15
+  focused_menu: ^1.0.5
+  fluttertoast:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo-splash.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/logo-launcer.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/images/logo-launcer.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/images/logo-launcer.png"
+    icon_size: 48
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
